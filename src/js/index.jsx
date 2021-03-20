@@ -3,6 +3,9 @@ import { myFunc } from './utils/funcs'
 import { isEmpty } from 'lodash'
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
+import $ from 'jquery'
+
+console.log({ $ })
 
 myFunc()
 
