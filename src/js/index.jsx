@@ -17,3 +17,13 @@ const MyComponent = () => {
 }
 
 ReactDOM.render(<MyComponent />, document.getElementById('app01'))
+
+
+
+
+
+
+$('#my-button').on('click', async () => {
+  const { onClick } = await import('./utils/utils.js')
+  onClick()
+})

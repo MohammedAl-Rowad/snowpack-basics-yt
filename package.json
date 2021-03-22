@@ -16,6 +16,7 @@
     "snowpack": "^3.0.13"
   },
   "dependencies": {
+    "canvas-confetti": "^1.4.0",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
     "react": "^17.0.1",
